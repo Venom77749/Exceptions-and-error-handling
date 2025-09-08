@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simple exception", "Simple exception\Simple exception.vcxproj", "{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Debug|x64.ActiveCfg = Debug|x64
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Debug|x64.Build.0 = Debug|x64
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Debug|x86.ActiveCfg = Debug|Win32
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Debug|x86.Build.0 = Debug|Win32
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Release|x64.ActiveCfg = Release|x64
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Release|x64.Build.0 = Release|x64
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Release|x86.ActiveCfg = Release|Win32
+		{735E5A9D-AAB4-4D69-8B5C-474162D92FDC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {799C4E60-A44F-47BA-BFDE-E1B23D2353D9}
+	EndGlobalSection
+EndGlobal
