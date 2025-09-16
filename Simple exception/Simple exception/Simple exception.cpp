@@ -18,9 +18,9 @@ int main()
         {
             std::cout << "Word length \"" << str << "\" is " << function(str, forbidden_length);
         }
-        catch (...)
+        catch (const std::runtime_error& e)
         {
-            std::cout << "You have entered a word of a forbidden length! Goodbye!";
+            std::cout << "You have entered a word of a forbidden length! Goodbye! " << e.what();
             return EXIT_FAILURE;
         }
 
@@ -34,7 +34,7 @@ int function(std::string str, int forbidden_length)
 {
     if (str.length() == forbidden_length)
     {
-        throw "bad_length";
+        throw std::runtime_error("bad_length");
     }
     return str.length();
 }
